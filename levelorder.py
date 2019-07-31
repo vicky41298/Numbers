@@ -19,3 +19,4 @@ for i in range (n) :
        insert(i,1)
 for i in nodes:
     print(*i,sep=' ') 
+#print(max(len(i))) 
