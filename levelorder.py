@@ -6,12 +6,12 @@ def insert(index, level):
             nodes[level].append(i)
             insert(i, level+1)
 n=int(input())
-parents []
-nodes-[]
-parents= list(map (int, input ( ). split ( ) ) )
+parents = []
+nodes=[]
+parents= list(map(int,input().split()))
 for i in range (n) :
     if parents[i]==-1:
-       if(len (nodes ) <1) :
+       if(len(nodes)<1) :
 
             nodes.append([])
 
