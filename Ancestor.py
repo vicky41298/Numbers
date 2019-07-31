@@ -3,28 +3,28 @@ def traverseback(parent,x):
        x.append(-1)
        return x
 
-    X.append(parent)
-    return traverseback (1[parent],x)
-1=List(map(int, input().split()))
+    x.append(parent)
+    return traverseback (l[parent],x)
+l=List(map(int, input().split()))
 a,b=map(int,input().split())
-parents, parents B=[a],[b]
-parents, parents=traverseback(fa) parentsA), traverseback (1[6], parents)
-print(1, parents, parents)
-for i in range(1, max(len(parents), on(parents))):
-    if(parents[in] =parents Bi]):
+parentsA, parentsB=[a],[b]
+parentsA, parentsB=traverseback(l[a], parentsA), traverseback (1[b], parentsB)
+print(l, parentsA, parentsB)
+for i in range(1, max(len(parentsA), len(parentsB))):
+    if(parentsA[-i]!=parentsB[-i]):
 
 
-        print(parents[-i+1])
+        print(parentsA[-i+1])
         exit()
 
 
 
-if(len (parents) <len(parents)):
-        print(parents[@])
+if(len (parentsA) <len(parentsB)):
+        print(parentsA[0])
 
 
 
 else:
 
 
-      print(parents Be])
+      print(parentsB[0])
